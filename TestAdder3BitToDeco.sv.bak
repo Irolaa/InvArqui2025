@@ -1,0 +1,24 @@
+module TestAdder3BitToDeco();
+
+logic a[7:0]
+
+
+ Adder1Automatic(1,0,a[7:0]);
+
+
+initial begin
+a[0] = 0;
+a[1] = 0;
+a[2] = 0;
+a[3] = 0;
+a[4] = 0;
+a[5] = 0;
+a[6] = 0;
+a[7] = 0;
+
+end
+
+
+
+
+endmodule

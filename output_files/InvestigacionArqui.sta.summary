@@ -1,0 +1,389 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -5.385
+TNS   : -749.588
+
+Type  : Slow 1100mV 85C Model Setup 'Adder4Manual:adder4M|LED_Animation:led_anim|div_counter[23]'
+Slack : -3.721
+TNS   : -43.855
+
+Type  : Slow 1100mV 85C Model Setup 'Adder10Automatic:adder10|LED_Animation:led_anim|div_counter[23]'
+Slack : -3.654
+TNS   : -39.264
+
+Type  : Slow 1100mV 85C Model Setup 'Adder10Manual:adder10M|LED_Animation:led_anim|div_counter[23]'
+Slack : -3.641
+TNS   : -38.349
+
+Type  : Slow 1100mV 85C Model Setup 'Adder1Manual:adder1M|LED_Animation:led_anim|div_counter[23]'
+Slack : -3.618
+TNS   : -39.143
+
+Type  : Slow 1100mV 85C Model Setup 'Adder1Automatic:adder1|LED_Animation:led_anim|div_counter[23]'
+Slack : -3.574
+TNS   : -37.018
+
+Type  : Slow 1100mV 85C Model Setup 'Adder4Automatic:adder4|LED_Animation:led_anim|div_counter[23]'
+Slack : -3.533
+TNS   : -40.016
+
+Type  : Slow 1100mV 85C Model Setup 'buttonM'
+Slack : -1.515
+TNS   : -34.419
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 0.093
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'buttonM'
+Slack : 0.366
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Adder1Manual:adder1M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Adder10Manual:adder10M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.451
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Adder1Automatic:adder1|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Adder10Automatic:adder10|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.587
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Adder4Automatic:adder4|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.671
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Adder4Manual:adder4M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.696
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.845
+TNS   : -121.476
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'buttonM'
+Slack : -0.394
+TNS   : -12.461
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Adder4Manual:adder4M|LED_Animation:led_anim|div_counter[23]'
+Slack : -0.394
+TNS   : -10.938
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Adder1Manual:adder1M|LED_Animation:led_anim|div_counter[23]'
+Slack : -0.394
+TNS   : -10.522
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Adder4Automatic:adder4|LED_Animation:led_anim|div_counter[23]'
+Slack : -0.394
+TNS   : -10.062
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Adder1Automatic:adder1|LED_Animation:led_anim|div_counter[23]'
+Slack : -0.394
+TNS   : -9.796
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Adder10Automatic:adder10|LED_Animation:led_anim|div_counter[23]'
+Slack : -0.394
+TNS   : -9.277
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Adder10Manual:adder10M|LED_Animation:led_anim|div_counter[23]'
+Slack : -0.394
+TNS   : -8.975
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -5.289
+TNS   : -732.450
+
+Type  : Slow 1100mV 0C Model Setup 'Adder4Manual:adder4M|LED_Animation:led_anim|div_counter[23]'
+Slack : -3.824
+TNS   : -44.485
+
+Type  : Slow 1100mV 0C Model Setup 'Adder10Automatic:adder10|LED_Animation:led_anim|div_counter[23]'
+Slack : -3.764
+TNS   : -39.975
+
+Type  : Slow 1100mV 0C Model Setup 'Adder10Manual:adder10M|LED_Animation:led_anim|div_counter[23]'
+Slack : -3.761
+TNS   : -39.172
+
+Type  : Slow 1100mV 0C Model Setup 'Adder1Manual:adder1M|LED_Animation:led_anim|div_counter[23]'
+Slack : -3.732
+TNS   : -40.047
+
+Type  : Slow 1100mV 0C Model Setup 'Adder1Automatic:adder1|LED_Animation:led_anim|div_counter[23]'
+Slack : -3.717
+TNS   : -38.044
+
+Type  : Slow 1100mV 0C Model Setup 'Adder4Automatic:adder4|LED_Animation:led_anim|div_counter[23]'
+Slack : -3.669
+TNS   : -40.694
+
+Type  : Slow 1100mV 0C Model Setup 'buttonM'
+Slack : -1.497
+TNS   : -33.443
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 0.141
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'buttonM'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Adder1Manual:adder1M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.457
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Adder10Manual:adder10M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.463
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Adder1Automatic:adder1|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.468
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Adder10Automatic:adder10|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.563
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Adder4Automatic:adder4|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.613
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Adder4Manual:adder4M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.674
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.874
+TNS   : -131.434
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'buttonM'
+Slack : -0.394
+TNS   : -13.786
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Adder4Manual:adder4M|LED_Animation:led_anim|div_counter[23]'
+Slack : -0.394
+TNS   : -10.953
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Adder1Manual:adder1M|LED_Animation:led_anim|div_counter[23]'
+Slack : -0.394
+TNS   : -10.575
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Adder4Automatic:adder4|LED_Animation:led_anim|div_counter[23]'
+Slack : -0.394
+TNS   : -9.936
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Adder1Automatic:adder1|LED_Animation:led_anim|div_counter[23]'
+Slack : -0.394
+TNS   : -9.592
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Adder10Manual:adder10M|LED_Animation:led_anim|div_counter[23]'
+Slack : -0.394
+TNS   : -9.056
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Adder10Automatic:adder10|LED_Animation:led_anim|div_counter[23]'
+Slack : -0.394
+TNS   : -9.007
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -4.522
+TNS   : -418.325
+
+Type  : Fast 1100mV 85C Model Setup 'Adder4Manual:adder4M|LED_Animation:led_anim|div_counter[23]'
+Slack : -1.840
+TNS   : -20.273
+
+Type  : Fast 1100mV 85C Model Setup 'Adder1Manual:adder1M|LED_Animation:led_anim|div_counter[23]'
+Slack : -1.789
+TNS   : -17.888
+
+Type  : Fast 1100mV 85C Model Setup 'Adder10Automatic:adder10|LED_Animation:led_anim|div_counter[23]'
+Slack : -1.788
+TNS   : -17.996
+
+Type  : Fast 1100mV 85C Model Setup 'Adder10Manual:adder10M|LED_Animation:led_anim|div_counter[23]'
+Slack : -1.740
+TNS   : -17.393
+
+Type  : Fast 1100mV 85C Model Setup 'Adder4Automatic:adder4|LED_Animation:led_anim|div_counter[23]'
+Slack : -1.721
+TNS   : -17.741
+
+Type  : Fast 1100mV 85C Model Setup 'Adder1Automatic:adder1|LED_Animation:led_anim|div_counter[23]'
+Slack : -1.694
+TNS   : -16.394
+
+Type  : Fast 1100mV 85C Model Setup 'buttonM'
+Slack : -0.585
+TNS   : -11.557
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.082
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'buttonM'
+Slack : 0.141
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Adder1Automatic:adder1|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.165
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Adder1Manual:adder1M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Adder10Manual:adder10M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.171
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Adder4Automatic:adder4|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.286
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Adder10Automatic:adder10|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Adder4Manual:adder4M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.366
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.843
+TNS   : -25.365
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'buttonM'
+Slack : -0.080
+TNS   : -1.896
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Adder1Manual:adder1M|LED_Animation:led_anim|div_counter[23]'
+Slack : -0.026
+TNS   : -0.360
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Adder1Automatic:adder1|LED_Animation:led_anim|div_counter[23]'
+Slack : -0.020
+TNS   : -0.040
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Adder4Manual:adder4M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.007
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Adder4Automatic:adder4|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.014
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Adder10Automatic:adder10|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.026
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Adder10Manual:adder10M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.030
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -3.886
+TNS   : -355.097
+
+Type  : Fast 1100mV 0C Model Setup 'Adder4Manual:adder4M|LED_Animation:led_anim|div_counter[23]'
+Slack : -1.775
+TNS   : -18.906
+
+Type  : Fast 1100mV 0C Model Setup 'Adder10Automatic:adder10|LED_Animation:led_anim|div_counter[23]'
+Slack : -1.748
+TNS   : -17.074
+
+Type  : Fast 1100mV 0C Model Setup 'Adder1Manual:adder1M|LED_Animation:led_anim|div_counter[23]'
+Slack : -1.736
+TNS   : -16.795
+
+Type  : Fast 1100mV 0C Model Setup 'Adder10Manual:adder10M|LED_Animation:led_anim|div_counter[23]'
+Slack : -1.699
+TNS   : -16.448
+
+Type  : Fast 1100mV 0C Model Setup 'Adder4Automatic:adder4|LED_Animation:led_anim|div_counter[23]'
+Slack : -1.693
+TNS   : -16.842
+
+Type  : Fast 1100mV 0C Model Setup 'Adder1Automatic:adder1|LED_Animation:led_anim|div_counter[23]'
+Slack : -1.665
+TNS   : -15.536
+
+Type  : Fast 1100mV 0C Model Setup 'buttonM'
+Slack : -0.486
+TNS   : -9.378
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : 0.062
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'buttonM'
+Slack : 0.076
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Adder1Manual:adder1M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Adder10Manual:adder10M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Adder1Automatic:adder1|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.156
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Adder4Automatic:adder4|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Adder10Automatic:adder10|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.284
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Adder4Manual:adder4M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.327
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.807
+TNS   : -25.189
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'buttonM'
+Slack : -0.082
+TNS   : -1.927
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Adder1Manual:adder1M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.007
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Adder1Automatic:adder1|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.024
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Adder4Manual:adder4M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.035
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Adder4Automatic:adder4|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.043
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Adder10Manual:adder10M|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.050
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Adder10Automatic:adder10|LED_Animation:led_anim|div_counter[23]'
+Slack : 0.057
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,26 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+D:/U/Arquitectura/Todos\ los\ proyectos\ de\ Quartus/InvestigacionArqui {D:/U/Arquitectura/Todos los proyectos de Quartus/InvestigacionArqui/Decodificador9.sv}
+vlog -sv -work work +incdir+D:/U/Arquitectura/Todos\ los\ proyectos\ de\ Quartus/InvestigacionArqui {D:/U/Arquitectura/Todos los proyectos de Quartus/InvestigacionArqui/Decodificador150.sv}
+vlog -sv -work work +incdir+D:/U/Arquitectura/Todos\ los\ proyectos\ de\ Quartus/InvestigacionArqui {D:/U/Arquitectura/Todos los proyectos de Quartus/InvestigacionArqui/Adder1Automatic.sv}
+vlog -sv -work work +incdir+D:/U/Arquitectura/Todos\ los\ proyectos\ de\ Quartus/InvestigacionArqui {D:/U/Arquitectura/Todos los proyectos de Quartus/InvestigacionArqui/Adder4Automatic.sv}
+vlog -sv -work work +incdir+D:/U/Arquitectura/Todos\ los\ proyectos\ de\ Quartus/InvestigacionArqui {D:/U/Arquitectura/Todos los proyectos de Quartus/InvestigacionArqui/Adder10Automatic.sv}
+vlog -sv -work work +incdir+D:/U/Arquitectura/Todos\ los\ proyectos\ de\ Quartus/InvestigacionArqui {D:/U/Arquitectura/Todos los proyectos de Quartus/InvestigacionArqui/CounterSelector.sv}
+vlog -sv -work work +incdir+D:/U/Arquitectura/Todos\ los\ proyectos\ de\ Quartus/InvestigacionArqui {D:/U/Arquitectura/Todos los proyectos de Quartus/InvestigacionArqui/Adder1Manual.sv}
+vlog -sv -work work +incdir+D:/U/Arquitectura/Todos\ los\ proyectos\ de\ Quartus/InvestigacionArqui {D:/U/Arquitectura/Todos los proyectos de Quartus/InvestigacionArqui/Adder4Manual.sv}
+vlog -sv -work work +incdir+D:/U/Arquitectura/Todos\ los\ proyectos\ de\ Quartus/InvestigacionArqui {D:/U/Arquitectura/Todos los proyectos de Quartus/InvestigacionArqui/Adder10Manual.sv}
+vlog -sv -work work +incdir+D:/U/Arquitectura/Todos\ los\ proyectos\ de\ Quartus/InvestigacionArqui {D:/U/Arquitectura/Todos los proyectos de Quartus/InvestigacionArqui/LED_Animation.sv}
+
+vlog -sv -work work +incdir+D:/U/Arquitectura/Todos\ los\ proyectos\ de\ Quartus/InvestigacionArqui {D:/U/Arquitectura/Todos los proyectos de Quartus/InvestigacionArqui/TestAdder3BitToDeco.sv}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  TestAdder3BitToDeco
+
+add wave *
+view structure
+view signals
+run -all

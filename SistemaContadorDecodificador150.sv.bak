@@ -1,0 +1,27 @@
+module SistemaContadorDecodificador150(
+    input wire clk,       // Señal de reloj
+    input wire reset,     // Señal para reiniciar el contador
+    output wire [6:0] seg_centenas, // Salida para display de centenas
+    output wire [6:0] seg_decenas,  // Salida para display de decenas
+    output wire [6:0] seg_unidades  // Salida para display de unidades
+);
+
+    // Salida del contador (número de 8 bits, valor entre 0 y 150)
+    wire [7:0] count;
+
+    // Instancia del módulo del contador
+    ContadorAutomatico contador (
+        .clk(clk),
+        .reset(reset),
+        .count(count)
+    );
+
+    // Instancia del decodificador para 150
+    Decodificador150 decodificador (
+        .num(count),
+        .seg_centenas(seg_centenas),
+        .seg_decenas(seg_decenas),
+        .seg_unidades(seg_unidades)
+    );
+
+endmodule

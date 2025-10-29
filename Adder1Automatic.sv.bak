@@ -1,0 +1,20 @@
+module Adder1Automatic(
+    input wire clk,         // Señal de reloj
+    input wire reset,       // Señal para reiniciar el contador
+    output reg [7:0] count  // Salida del valor actual del contador (8 bits)
+);
+
+    // Máximo valor del contador antes de reiniciarse (255 para un contador de 8 bits)
+    parameter MAX_VALUE = 8'd255;
+
+    always @(posedge clk or posedge reset) begin
+        if (reset) begin
+            count <= 8'd0;             // Reinicia el contador a 0 si se activa el reset
+        end else if (count == MAX_VALUE) begin
+            count <= 8'd0;             // Reinicia el contador cuando llega al valor máximo
+        end else begin
+            count <= count + 1;        // Incrementa el contador en 1 en cada ciclo de reloj
+        end
+    end
+
+endmodule

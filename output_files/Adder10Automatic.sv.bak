@@ -1,0 +1,37 @@
+module Adder10Automatic (
+    input logic clk,                // Reloj de alta frecuencia
+    input logic reset,              // Señal de reinicio
+    output logic [6:0] seg_centenas, // Salida para display de centenas
+    output logic [6:0] seg_decenas,  // Salida para display de decenas
+    output logic [6:0] seg_unidades  // Salida para display de unidades
+);
+
+    logic [7:0] count;       // Señal del contador de 8 bits
+    logic slow_clk;          // Reloj lento
+
+    // Divisor de frecuencia: divide el reloj original para obtener un reloj más lento
+    logic [24:0] div_counter; // Ajusta el tamaño según la frecuencia deseada
+    always_ff @(posedge clk or posedge reset) begin
+        if (reset)
+            div_counter <= 0;
+        else
+            div_counter <= div_counter + 1;
+    end
+
+    // Generar un pulso de reloj lento usando el bit más significativo de div_counter
+    assign slow_clk = div_counter[24]; // Cambia 24 según la velocidad deseada
+
+    // Instancia del decodificador
+    Decodificador150 decodificador (count, seg_centenas, seg_decenas, seg_unidades);   
+
+    // Bloque secuencial para incrementar el contador con el reloj lento
+    always_ff @(posedge slow_clk or posedge reset) begin
+        iif (reset) 
+            count <= 8'd0;            // Reiniciar el contador si se activa reset
+        else if (count == 8'd150) 
+            count <= 8'd0;              // Reinicia el contador
+        else
+            count <= count + 8'd10;      // Incrementar el contador de 1 en 1
+    end
+
+endmodule

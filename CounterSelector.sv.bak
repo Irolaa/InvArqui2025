@@ -1,0 +1,31 @@
+module CounterSelector (
+    input logic clk,               // Señal de reloj
+    input logic btn1,              // Botón para contador de 1 en 1
+    input logic btn2,              // Botón para contador de 4 en 4
+    input logic btn3,              // Botón para contador de 10 en 10
+    output logic [6:0] seg         // Salida para el display de 7 segmentos
+);
+
+    // Definimos los caracteres para el display
+    localparam [6:0] L = 7'b0000110; // Representación de 'L'
+    localparam [6:0] E = 7'b1000110; // Representación de 'E'
+    localparam [6:0] U = 7'b1000001; // Representación de 'U'
+    
+    // Registro para almacenar el valor actual del display
+    logic [6:0] current_seg;
+
+    always_ff @(posedge clk) begin
+        if (btn1) begin
+            current_seg <= L; // Si se presiona btn1, mostrar 'L'
+        end else if (btn2) begin
+            current_seg <= E; // Si se presiona btn2, mostrar 'E'
+        end else if (btn3) begin
+            current_seg <= U; // Si se presiona btn3, mostrar 'U'
+        end else begin
+            current_seg <= 7'b1111111; // Apagar el display si no se presiona ningún botón
+        end
+    end
+
+    assign seg = current_seg; // Asignar el valor actual al display de 7 segmentos
+
+endmodule

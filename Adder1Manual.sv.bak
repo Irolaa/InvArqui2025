@@ -1,0 +1,25 @@
+module Adder1Manual (
+    input logic clk,                
+    input logic reset,
+	 input buttonM,
+    output logic [6:0] seg_centenas, // Salida para display de centenas
+    output logic [6:0] seg_decenas,  // Salida para display de decenas
+    output logic [6:0] seg_unidades,  // Salida para display de unidades
+);
+
+    logic [7:0] count;       // Señal del contador de 8 bits
+    
+    
+	Decodificador150 decodificador (count, seg_centenas, seg_decenas, seg_unidades);
+	
+    always_ff @(posedge buttonM or posedge reset) begin
+        if (reset)begin 
+            count <= 8'd0;
+        end else if (count == 8'd150)begin
+				count <= 8'd0;
+        end else
+           count <= count + 8'd1;
+    end
+	
+
+endmodule

@@ -1,0 +1,29 @@
+module LED_Animation (
+    input logic clk,
+    input logic reset,
+    input logic count_reached,
+    output logic [4:0] led // Salida de 5 LEDs
+);
+
+    logic [1:0] toggle_counter;  // Contador para 3 ciclos de encendido y apagado
+    logic animation_active;      // Señal para activar la animación
+
+    always_ff @(posedge clk or posedge reset) begin
+        if (reset) begin
+            toggle_counter <= 2'd0;
+            animation_active <= 0;
+            led <= 5'b00000;
+        end else if (count_reached && !animation_active) begin
+            animation_active <= 1;
+            toggle_counter <= 2'd0;
+        end else if (animation_active) begin
+            if (toggle_counter < 2'd3) begin
+                led <= ~led;  // Cambia el estado de los LEDs (encendido/apagado)
+                toggle_counter <= toggle_counter + 1;
+            end else begin
+                animation_active <= 0;
+                led <= 5'b00000;
+            end
+        end
+    end
+endmodule

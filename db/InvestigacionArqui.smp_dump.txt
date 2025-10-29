@@ -1,0 +1,80 @@
+
+State Machine - |CounterSelector|active_manual_idx
+Name active_manual_idx.011 active_manual_idx.010 active_manual_idx.001 active_manual_idx.000 
+active_manual_idx.000 0 0 0 0 
+active_manual_idx.001 0 0 1 1 
+active_manual_idx.010 0 1 0 1 
+active_manual_idx.011 1 0 0 1 
+
+State Machine - |CounterSelector|active_auto_idx
+Name active_auto_idx.011 active_auto_idx.010 active_auto_idx.001 active_auto_idx.000 
+active_auto_idx.000 0 0 0 0 
+active_auto_idx.001 0 0 1 1 
+active_auto_idx.010 0 1 0 1 
+active_auto_idx.011 1 0 0 1 
+
+State Machine - |CounterSelector|current_display
+Name current_display.L current_display.U current_display.E 
+current_display.L 0 0 0 
+current_display.U 1 1 0 
+current_display.E 1 0 1 
+
+State Machine - |CounterSelector|Adder10Manual:adder10M|LED_Animation:led_anim|animation_step
+Name animation_step.0110 animation_step.0101 animation_step.0100 animation_step.0011 animation_step.0010 animation_step.0001 animation_step.0000 
+animation_step.0000 0 0 0 0 0 0 0 
+animation_step.0001 0 0 0 0 0 1 1 
+animation_step.0010 0 0 0 0 1 0 1 
+animation_step.0011 0 0 0 1 0 0 1 
+animation_step.0100 0 0 1 0 0 0 1 
+animation_step.0101 0 1 0 0 0 0 1 
+animation_step.0110 1 0 0 0 0 0 1 
+
+State Machine - |CounterSelector|Adder4Manual:adder4M|LED_Animation:led_anim|animation_step
+Name animation_step.0110 animation_step.0101 animation_step.0100 animation_step.0011 animation_step.0010 animation_step.0001 animation_step.0000 
+animation_step.0000 0 0 0 0 0 0 0 
+animation_step.0001 0 0 0 0 0 1 1 
+animation_step.0010 0 0 0 0 1 0 1 
+animation_step.0011 0 0 0 1 0 0 1 
+animation_step.0100 0 0 1 0 0 0 1 
+animation_step.0101 0 1 0 0 0 0 1 
+animation_step.0110 1 0 0 0 0 0 1 
+
+State Machine - |CounterSelector|Adder1Manual:adder1M|LED_Animation:led_anim|animation_step
+Name animation_step.0110 animation_step.0101 animation_step.0100 animation_step.0011 animation_step.0010 animation_step.0001 animation_step.0000 
+animation_step.0000 0 0 0 0 0 0 0 
+animation_step.0001 0 0 0 0 0 1 1 
+animation_step.0010 0 0 0 0 1 0 1 
+animation_step.0011 0 0 0 1 0 0 1 
+animation_step.0100 0 0 1 0 0 0 1 
+animation_step.0101 0 1 0 0 0 0 1 
+animation_step.0110 1 0 0 0 0 0 1 
+
+State Machine - |CounterSelector|Adder10Automatic:adder10|LED_Animation:led_anim|animation_step
+Name animation_step.0110 animation_step.0101 animation_step.0100 animation_step.0011 animation_step.0010 animation_step.0001 animation_step.0000 
+animation_step.0000 0 0 0 0 0 0 0 
+animation_step.0001 0 0 0 0 0 1 1 
+animation_step.0010 0 0 0 0 1 0 1 
+animation_step.0011 0 0 0 1 0 0 1 
+animation_step.0100 0 0 1 0 0 0 1 
+animation_step.0101 0 1 0 0 0 0 1 
+animation_step.0110 1 0 0 0 0 0 1 
+
+State Machine - |CounterSelector|Adder4Automatic:adder4|LED_Animation:led_anim|animation_step
+Name animation_step.0110 animation_step.0101 animation_step.0100 animation_step.0011 animation_step.0010 animation_step.0001 animation_step.0000 
+animation_step.0000 0 0 0 0 0 0 0 
+animation_step.0001 0 0 0 0 0 1 1 
+animation_step.0010 0 0 0 0 1 0 1 
+animation_step.0011 0 0 0 1 0 0 1 
+animation_step.0100 0 0 1 0 0 0 1 
+animation_step.0101 0 1 0 0 0 0 1 
+animation_step.0110 1 0 0 0 0 0 1 
+
+State Machine - |CounterSelector|Adder1Automatic:adder1|LED_Animation:led_anim|animation_step
+Name animation_step.0110 animation_step.0101 animation_step.0100 animation_step.0011 animation_step.0010 animation_step.0001 animation_step.0000 
+animation_step.0000 0 0 0 0 0 0 0 
+animation_step.0001 0 0 0 0 0 1 1 
+animation_step.0010 0 0 0 0 1 0 1 
+animation_step.0011 0 0 0 1 0 0 1 
+animation_step.0100 0 0 1 0 0 0 1 
+animation_step.0101 0 1 0 0 0 0 1 
+animation_step.0110 1 0 0 0 0 0 1 

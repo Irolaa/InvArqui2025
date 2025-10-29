@@ -1,0 +1,3 @@
+Warning (10268): Verilog HDL information at Adder1Manual.sv(18): always construct contains both blocking and non-blocking assignments File: D:/Arquitectura/Todos los proyectos de Quartus/InvestigacionArqui/Adder1Manual.sv Line: 18
+Warning (10268): Verilog HDL information at Adder4Manual.sv(19): always construct contains both blocking and non-blocking assignments File: D:/Arquitectura/Todos los proyectos de Quartus/InvestigacionArqui/Adder4Manual.sv Line: 19
+Warning (10268): Verilog HDL information at Adder10Manual.sv(18): always construct contains both blocking and non-blocking assignments File: D:/Arquitectura/Todos los proyectos de Quartus/InvestigacionArqui/Adder10Manual.sv Line: 18
